@@ -1,0 +1,71 @@
+.mySkills {
+  background-color: #659393;
+  height: 100%;
+  padding: 50px 0px 60px 0px;
+  width: 100%;
+
+  h3 {
+    color: white;
+    padding-bottom: 60px;
+    font-family: "reenie beanie", cursive;
+    font-size: 60px;
+    font-weight: 500;
+  }
+
+  .skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+      gap: 20px;
+
+      animation: pulse 2s infinite;
+
+      svg {
+        color: white;
+        font-size: 50px;
+      }
+      h4 {
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 550px) {
+  .mySkills .skills .skill svg {
+    font-size: 40px;
+  }
+  .mySkills .skills .skill h4 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  .mySkills .skills .skill svg {
+    font-size: 30px;
+  }
+  .mySkills .skills .skill h4 {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,66 @@
+.contactSection {
+  background-color: #f4f5f0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 100px 0px;
+
+    img {
+      rotate: -90deg;
+      width: 30%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .contactContent {
+      background-color: #659393;
+      width: 40%;
+      padding: 50px;
+      border-radius: 10px;
+
+      h3 {
+        font-family: "poppins", sans-serif;
+        margin-bottom: 30px;
+        color: white;
+      }
+
+      .contactInfo {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+
+        div {
+          display: flex;
+          text-align: center;
+          gap: 2vw;
+          font-family: "poppins", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .contactSection .contactContainer {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .contactSection .contactContainer img {
+    height: 500px;
+    width: 200px;
+  }
+  .contactSection .contactContainer .contactContent {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,35 @@
+.pictures {
+  background-color: #f4f5f0;
+  h2 {
+    color: #5c5c5c;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    padding: 90px 0px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    img {
+      width: 25%;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .pictures div {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  .pictures div img {
+    width: 80%;
+    height: 200px;
+  }
+}

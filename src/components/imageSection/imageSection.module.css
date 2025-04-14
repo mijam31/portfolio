@@ -1,0 +1,12 @@
+.imageSection {
+  width: 100%;
+  padding: -3px;
+  margin: 0px 0px -4px 0px;
+
+  img {
+    object-fit: cover;
+    object-position: center 80%;
+    height: 200px;
+    width: 100%;
+  }
+}

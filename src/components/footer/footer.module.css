@@ -1,0 +1,39 @@
+.footer {
+  background-color: #e6a09c;
+  padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    p {
+      display: flex;
+      align-items: center;
+      gap: 0.5vw;
+      color: white;
+      font-family: "poppins", sans-serif;
+      text-align: start;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  .icons {
+    display: flex;
+
+    gap: 1vw;
+    svg {
+      color: white;
+      font-size: 30px;
+      transition: all 0.3s ease-in-out;
+    }
+    svg:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+      color: rgb(228, 219, 198);
+    }
+  }
+}

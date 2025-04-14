@@ -5,7 +5,7 @@ import { IoLogoJavascript } from "react-icons/io";
 const MySkills = () => {
   return (
     <section className={styles.mySkills}>
-      <h3>Mine Skills</h3>
+      <h3>Mine Færdigheder</h3>
       <div className={styles.skills}>
         <div className={styles.skill}>
           <FaHtml5 />

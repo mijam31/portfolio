@@ -12,12 +12,12 @@ const OtherProjects = () => {
         <img src={img} alt="" />
         <p>
           Her er et udpluk af nogle af de hjemmesider, jeg har lavet. Hver af
-          disse er bygget med fokus på funktionalitet og æestik. Klik på hvert
+          disse er bygget med fokus på funktionalitet og æstetik. Klik på hvert
           project for at få et nærmere kig!
         </p>
       </div>
       <div className={styles.projectContainer}>
-        <h2>Mine Projects</h2>
+        <h2>Mine Projekter</h2>
         <div className={styles.projects}>
           <div className={styles.project}>
             <NavLink

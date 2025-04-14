@@ -16,7 +16,7 @@ const Languages = () => {
           <h2>Mine Sporg</h2>
           <p>
             Her er et lille overblik over de sprog, jeg taler - og hvordan jeg
-            selv oplever mit neuvo ✨
+            selv oplever mit niveau ✨
           </p>
 
           <div>
